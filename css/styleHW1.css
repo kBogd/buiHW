@@ -1,0 +1,47 @@
+*{
+  font-family: 'Poppins';
+}
+.bg-wrapper {
+  background-image: url(/bujHW/HW1/bujHW1/img/chuvak.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1920px;
+  max-height: 1090px;
+  /*width: 769px;
+  height: 965px;*/
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container{
+  max-width: 1787px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 45px 60px;
+}
+
+.greeting{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #000000;
+  width: 620px;
+  justify-content: start;
+  margin-top: 330px;
+  margin-bottom: 330px;
+  margin-left: 0;
+}
+
+.footer-text{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
